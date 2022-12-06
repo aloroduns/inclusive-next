@@ -99,7 +99,7 @@ Our guide to services shows families all the resources available to them and adv
                 <div className="SubWrapper">
                     <div className="Subscribe">
                         <h2 className={styles.SubTitle}>Subscribe to Our Newsletter</h2>
-                        <p className={styles.SubText}>to learn about updated services and new providers.</p>
+                        <p className={styles.SubText}>To learn about updated services and new providers.</p>
 
                         <label className={styles.EmailText}>Email</label>
                         <input className={styles.InputField} type="email" name="email" placeHolder="example@email.com" required/>
