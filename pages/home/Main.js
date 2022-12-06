@@ -6,6 +6,7 @@ import Group from '../../assets/images/Group.png'
 import Guide from '../../assets/images/Guide.png'
 import Puzzle from '../../assets/images/Puzzle.png'
 import Library from '../../assets/images/Library.png'
+import Button from 'components/CustomButtons/Button.js';
 
 export default function Main() {
     return (
@@ -102,7 +103,7 @@ Our guide to services shows families all the resources available to them and adv
 
                         <label className={styles.EmailText}>Email</label>
                         <input className={styles.InputField} type="email" name="email" placeHolder="example@email.com" required/>
-                        <button className={styles.SubButton}>Subscribe</button>
+                        <button type="button" color="subscribe">Subscribe</button>
                     </div>
                 </div>
             </div>
